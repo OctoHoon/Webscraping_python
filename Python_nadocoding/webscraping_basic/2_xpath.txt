@@ -1,0 +1,30 @@
+xpath: html 의 특정 elemen를 지칭하는 주소
+전체경로, 또는 id class와 같은 속성으로 간편하게 표현 가능
+
+/학교/학년/반/학생[2]
+//*[@학번="1-1-5"]
+
+/html/body/div/div/div/div/span/a...
+//*[@id="login]
+
+<학교 이름="나도고등학교">
+    <학년 value="1학년">
+        <반 value="1반">
+            <학생 value="1번">이지은</학생>
+            .......
+            ......
+            .....
+        </반>
+        <반 value="2반"/>
+        <반 value="3반"/>
+        <반 value="4반"/>
+    </학년>
+    ...
+    ...
+    ...
+</학교>
+
+크롬으로 할 것!
+네이버 로그인 xpath
+xpath: //*[@id="account"]/a
+full xpath: /html/body/div[2]/div[3]/div[3]/div/div[2]/a
